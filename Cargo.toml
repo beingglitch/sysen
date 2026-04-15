@@ -1,0 +1,18 @@
+[package]
+name = "sysen"
+version = "0.1.0"
+edition = "2024"
+
+description = "A system intelligence CLI tool that explains system behavior"
+license = "MIT"
+repository = "https://github.com/beigglitch/sysen"
+readme = "README.md"
+keywords = ["system", "monitoring", "cli", "performance"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+sysinfo = "0.38.4"
+
+[[bin]]
+name = "sysen"
+path = "src/main.rs"
